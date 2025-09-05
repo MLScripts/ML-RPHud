@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en" style="background:transparent">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ML Hud- https://github.com/MLScripts</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style="background:transparent">
+  <div id="hud" class="hud hidden">
+    <div class="hud-row">
+      <div class="pill pill-wide">
+        <span class="ico">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 4h4a2 2 0 012 2v1h3a2 2 0 012 2v8a3 3 0 01-3 3H6a3 3 0 01-3-3V9a2 2 0 012-2h3V6a2 2 0 012-2zm6 3V6a1 1 0 00-1-1h-4a1 1 0 00-1 1v1h6zM4 11h16v6a2 2 0 01-2 2H6a2 2 0 01-2-2v-6zM9 13h6v2H9v-2z"/></svg>
+        </span>
+        <span class="txt" id="hud-job">MLScripts - Job</span>
+      </div>
+      <div class="pill">
+        <span class="ico">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5a2 2 0 012-2h14a2 2 0 012 2v14a1 1 0 01-1 1H4a1 1 0 01-1-1V5zm2 0v14h14V5H5zm2 3h6v2H7V8zm0 3h6v2H7v-2zm10 1a2 2 0 11.001 4.001A2 2 0 0117 12z"/></svg>
+        </span>
+        <span class="txt" id="hud-id">1</span>
+      </div>
+    </div>
+
+    <div class="hud-row">
+      <div class="pill">
+        <span class="ico">
+          <svg viewBox="0 0 24 24"><path d="M3 7h18v10H3V7zm2 2v6h14V9H5zm2 1h2v4H7v-4zm10 0a3 3 0 110 6 3 3 0 010-6z"/></svg>
+        </span>
+        <span class="txt" id="hud-cash">€ 0</span>
+      </div>
+
+      <div class="pill">
+        <span class="ico">
+          <svg viewBox="0 0 24 24"><path d="M12 3l9 5v2H3V8l9-5zm-8 8h2v7H4v-7zm5 0h2v7H9v-7zm5 0h2v7h-2v-7zm5 0h2v7h-2v-7z"/></svg>
+        </span>
+        <span class="txt" id="hud-bank">€ 192.700</span>
+      </div>
+
+      <div class="pill">
+        <span class="ico">
+          <svg viewBox="0 0 24 24"><path d="M12 3C6 3 3 6 3 10c0 5 4 11 9 11s9-6 9-11c0-4-3-7-9-7zm-3 7c.8 0 1.5.7 1.5 1.5S9.8 13 9 13s-1.5-.7-1.5-1.5S8.2 10 9 10zm6 0c.8 0 1.5.7 1.5 1.5S15.8 13 15 13s-1.5-.7-1.5-1.5S14.2 10 15 10zm-9.5 1c0-3.3 3.6-5.5 6.5-5.5s6.5 2.2 6.5 5.5c0 .7-.1 1.4-.3 2H6.8c-.2-.6-.3-1.3-.3-2z"/></svg>
+        </span>
+        <span class="txt" id="hud-black">€ 0</span>
+      </div>
+
+      <!-- ronde logo-badge
+      <div class="logo-badge">
+        <img
+          src="www.mlscripts.nl/logoalsjewilhierlink"
+          alt="MDY Logo"
+          loading="eager"
+        /> -->
+        
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
